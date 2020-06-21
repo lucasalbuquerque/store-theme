@@ -90,5 +90,25 @@
   },
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
+  },
+  "store.search#subcategory-terms": {
+    "blocks": ["search-result"]
+  },
+  "store.search#custom": {
+    "blocks": ["search-result"]
+  },
+  "store.search#configurable": {
+    "blocks": ["search-result"]
+  },
+  "store.custom": {
+    "parent": {
+      "header": "header.full"
+    }
+  },
+  "store.content": {
+    "children": ["flex-layout.row#content-body"]
+  },
+  "flex-layout.row#content-body": {
+    "children": ["rich-text"]
   }
 }
